@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet');
+
+
 .colorRed {
   background: #d32d3d !important;
   background-color: #d32d3d !important;
@@ -5,4 +8,98 @@
 
 .overflowKey {
     overflow: hidden !important;
+}
+
+/* IMAGE AND HEADER */
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin: auto;
+}
+
+.headerText {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+  background: -webkit-linear-gradient(left, #C0C0C0 0%,#D3D3D3 24%,#D3D3D3 36%,#C0C0C0 46%,#C0C0C0 52%,#C0C0C0 58%,#C0C0C0 67%,#000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  transition: 25s;
+  animation: font-shine 25s infinite linear;
+  margin-top: 3vw !important;
+  margin-bottom: 3vw !important;
+}
+
+/* MAIN CARD DISPLAY */
+.rowSpacing {
+  margin-bottom: 3vw !important;
+}
+
+u a {
+  background: -webkit-linear-gradient(left, green 0%,green 24%,green 36%,green 46%,green 52%,green 58%,green 67%,green 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.mainCardFarm {
+  background: #000000 !important;
+  background-color: #000000 !important;
+}
+
+.text {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.specialErrorHighlight {
+  margin-top: 1vw !important;
+  margin-bottom: 1vw !important;
+}
+
+.input {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+
+/* CARD */
+.whiteHRLINE {
+  background-color: #C0C0C0 !important;
+  height: .1vh !important;
+}
+
+.adjustCardBody {
+  background-color: #000000 !important;
+}
+
+.lastCard { 
+  margin-bottom: 10vw !important;
+}
+
+.cardFontMain {
+  text-align: center;
+  background: -webkit-linear-gradient(left, #C0C0C0 0%,#e5e5e5 24%,#D3D3D3 36%,#C0C0C0 46%,#C0C0C0 52%,#C0C0C0 58%,#cccccc 67%,#D3D3D3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+/* BUTTONS */
+.mainInterfaceButtons {
+  margin-top: 3vw !important;
+}
+
+.buttonFormat {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.buttonFormat:hover {
+  color: green;
+  cursor: pointer;
 }

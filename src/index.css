@@ -28,3 +28,16 @@ code {
   -ms-transition: opacity 1s ease-in-out !important;
   -o-transition: opacity 1s ease-in-out !important;
 }
+
+/* New Stylesheets Imported */
+body {
+  background-color: black !important;
+}
+
+
+/* HEADER & NAVBAR */
+.shareButtonSpacing {
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-right: .3vh;
+}
