@@ -377,9 +377,6 @@ initateEthereum = async () => {
           <Row>
             <Col>
             <a href="https://buccaneer.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Homepage</Button></a>
-            </Col> 
-            <Col>
-            <a href="https://ipfs.io/ipfs/QmQfDJCw6X2cvgaA3sB3YnyJrjLSgJb1N5xzzC8iszr7Tw" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Manual</Button></a>
             </Col>
             <Col>
             <a href="https://buccapi.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>API</Button></a>
