@@ -403,7 +403,7 @@ initateEthereum = async () => {
       <Text className="headerText"
         fontSize={[ 3, 4, 5 ]}
         fontWeight='bold'>
-        Bermuda
+        Sargasso
       </Text>
       </Col>
       <Col md={3}>
