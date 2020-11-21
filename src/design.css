@@ -36,14 +36,6 @@
   margin-bottom: 3vw !important;
 }
 
-u a {
-  background: -webkit-linear-gradient(left, green 0%,green 24%,green 36%,green 46%,green 52%,green 58%,green 67%,green 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Noto Sans', sans-serif !important;
-}
 
 .mainCardFarm {
   background: #000000 !important;

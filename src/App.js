@@ -525,14 +525,16 @@ initateEthereum = async () => {
           <Col md={10}>  
           <Card variant="dark" bg="blackbg" className="text-center lastCard">
           <Card.Body className="adjustCardBody">
-                    <Card.Text className="cardBody">
                     <hr className="whiteHRLINE" />
-                    <p className="cardFontMain">
                         <Text
+                          className="text"
                           fontSize={[ 3, 4, 5 ]}
                           fontWeight='bold'>
                           APY: 1200%
                         </Text>
+                        <Text
+                          className="text"
+                          fontSize={[ 2 ]}>
                         <br />
                     Liquidity farming can be a scary thing. But it is a simple concept. Basically, when one adds liquidity to 
                     uniswap, they add both ethereum (or wrapped ether) and the native token. They end up getting an LP token, 
@@ -541,11 +543,11 @@ initateEthereum = async () => {
                     users every Ethereum block (on average 15 seconds). The rewards in most liquidity farming contracts come from tokens 
                     which are minted, however since there is no mint function in BUCC, those tokens must be manually deposited and are shown 
                     as how many tokens there are left in the farm for users to farm. 
-                    Now BUCC's farm contract has been verified and can be seen <u><a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code">here</a></u>. 
+                    Now BUCC's farm contract has been verified and can be seen <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code">here</a>. 
                     You can verify for yourself the integrity and structure of the BUCC farm contract, it can be seen to be completely secure.
                     <br />
                     <br />
-                    To begin liquidity mining is a rather straightforward process. Visit the Uniswap trading pair of ETH to BUCC and then go to <u><a href="https://app.uniswap.org/#/add/ETH/0xd5a7d515fb8b3337acb9b053743e0bc18f50c855">add liquidity</a></u>. 
+                    To begin liquidity mining is a rather straightforward process. Visit the Uniswap trading pair of ETH to BUCC and then go to <a href="https://app.uniswap.org/#/add/ETH/0xd5a7d515fb8b3337acb9b053743e0bc18f50c855">add liquidity</a>. 
                     Once you have done so, you will not see the token in your wallet (but you can, if you add the BUCC uniswap address pair at - 0x7772612549f27aa49c83fa59ab726f4799e4ecdc), 
                     Then you can deposit that into the liquidity farming contract. You will have to approve the deposit, then send the deposit and await confirmation. Then, almost instantly, 
                     you will begin to see you're "mining" BUCC. You can withdraw at any time or claim back your LP position and doing so will claim any tokens you have been awarded. 
@@ -553,9 +555,7 @@ initateEthereum = async () => {
                     BUCC system. All that is required is that address has been sent BUCC at some point, even if it is zero BUCC that has been sent to it. Once that address has been whitelisted, it can be sent your rewards, 
                     simply put in the token address and then click the button "Private Claim." This private claim system uses the same internal BUCC Bermuda system, so you know it's foolproof 
                     and there will never be any trace of any claim. Make sure that if you are tumbling tokens to the contract address, to not utilize your private claim or your tumbled tokens will get sent to the receiver. Enjoy, the world's first private farm, Sargasso. 
-                    
-                    </p>
-                    </Card.Text>
+                    </Text>
                     <hr className="whiteHRLINE" />
                   </Card.Body>
           </Card>
