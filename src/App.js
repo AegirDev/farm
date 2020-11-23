@@ -379,7 +379,7 @@ initateEthereum = async () => {
             <a href="https://buccaneer.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Homepage</Button></a>
             </Col>
             <Col>
-            <a href="https://buccapi.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>API</Button></a>
+            <a href="https://buccapi.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Bermuda</Button></a>
             </Col>
           </Row>
         </Container> 
