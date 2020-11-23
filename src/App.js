@@ -525,12 +525,17 @@ initateEthereum = async () => {
           <Col md={10}>  
           <Card variant="dark" bg="blackbg" className="text-center lastCard">
           <Card.Body className="adjustCardBody">
+          <Text
+                          className="text"
+                          fontSize={[ 5 ]}
+                          fontWeight='bold'>
+                          Sargasso Basics
+                        </Text>
                     <hr className="whiteHRLINE" />
                         <Text
                           className="text"
-                          fontSize={[ 3, 4, 5 ]}
-                          fontWeight='bold'>
-                          APY: 1200%
+                          fontSize={[ 3, 4, 5 ]}>
+                          Current APY: 1200%
                         </Text>
                         <Text
                           className="text"
@@ -540,8 +545,7 @@ initateEthereum = async () => {
                         <br /><br />
                         To begin farming, visit the Uniswap trading pair of ETH to BUCC and then go to 'Add Liquidity'. Once you have done so, you will not see the token in your wallet, but you can if you add the 
                         BUCC Uniswap address pair <a href="https://etherscan.io/address/0x7772612549f27aa49c83fa59ab726f4799e4ecdc" target="_blank">here</a>. You can then deposit that into the liquidity farming contract. You will have to approve the deposit, then send the deposit and await confirmation. Then almost instantly, you will begin to see that you're farming BUCC with a real-time updating gains indicator. You can withdraw at any time or claim back your LP position and doing so will claim any amount of BUCC you have been awarded. The headlining feature with Sargasso is the ability to claim your BUCC rewards privately as long as the claiming address has previously received any amount of BUCC. This private claim system uses the same internal BUCC-Bermuda system to enable traceless claims on private farming. Make sure that if you are tumbling tokens to the contract address, to not utilize your private claim or your tumbled tokens will get sent to the receiver. 
-                        <br /><br />
-                        Enjoy the world's first private farm, Sargasso.
+                        
                     </Text>
                     <hr className="whiteHRLINE" />
                   </Card.Body>
