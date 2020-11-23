@@ -536,25 +536,12 @@ initateEthereum = async () => {
                           className="text"
                           fontSize={[ 2 ]}>
                         <br />
-                    Liquidity farming can be a scary thing. But it is a simple concept. Basically, when one adds liquidity to 
-                    uniswap, they add both ethereum (or wrapped ether) and the native token. They end up getting an LP token, 
-                    which is a token from uniswap, which is basically a part of the share of the total liquidity based on their ratio. 
-                    This is a regular ERC20 token in essence and this is then deposited into a sort of staking contract which rewards 
-                    users every Ethereum block (on average 15 seconds). The rewards in most liquidity farming contracts come from tokens 
-                    which are minted, however since there is no mint function in BUCC, those tokens must be manually deposited and are shown 
-                    as how many tokens there are left in the farm for users to farm. 
-                    Now BUCC's farm contract has been verified and can be seen <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code">here</a>. 
-                    You can verify for yourself the integrity and structure of the BUCC farm contract, it can be seen to be completely secure.
-                    <br />
-                    <br />
-                    To begin liquidity mining is a rather straightforward process. Visit the Uniswap trading pair of ETH to BUCC and then go to <a href="https://app.uniswap.org/#/add/ETH/0xd5a7d515fb8b3337acb9b053743e0bc18f50c855">add liquidity</a>. 
-                    Once you have done so, you will not see the token in your wallet (but you can, if you add the BUCC uniswap address pair at - 0x7772612549f27aa49c83fa59ab726f4799e4ecdc), 
-                    Then you can deposit that into the liquidity farming contract. You will have to approve the deposit, then send the deposit and await confirmation. Then, almost instantly, 
-                    you will begin to see you're "mining" BUCC. You can withdraw at any time or claim back your LP position and doing so will claim any tokens you have been awarded. 
-                    There is one additional special feature with the BUCC farm. You have the ability to claim your BUCC, that you have mined with any address that has been whitelisted into the 
-                    BUCC system. All that is required is that address has been sent BUCC at some point, even if it is zero BUCC that has been sent to it. Once that address has been whitelisted, it can be sent your rewards, 
-                    simply put in the token address and then click the button "Private Claim." This private claim system uses the same internal BUCC Bermuda system, so you know it's foolproof 
-                    and there will never be any trace of any claim. Make sure that if you are tumbling tokens to the contract address, to not utilize your private claim or your tumbled tokens will get sent to the receiver. Enjoy, the world's first private farm, Sargasso. 
+                        Liquidity farming is a simple concept. When one adds liquidity to Uniswap, they add both ETH or wrapped ETH and the native token. They receive an LP token, which is a token from Uniswap which is part of the share of the total liquidity based on their ratio. This is a regular ERC-20 token in essence and this is then deposited into a staking contract which rewards users every Ethereum block, on average every 15 seconds. The rewards in most liquidity farming contracts come from tokens which are minted, however since there is no mint function for BUCC, those tokens must be manually deposited and are shown as a total amount of BUCC that is available to gain from farming. The Sargasso contract has been verified and can be seen <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879" target="_blank">here</a>. 
+                        <br /><br />
+                        To begin farming, visit the Uniswap trading pair of ETH to BUCC and then go to 'Add Liquidity'. Once you have done so, you will not see the token in your wallet, but you can if you add the 
+                        BUCC Uniswap address pair <a href="https://etherscan.io/address/0x7772612549f27aa49c83fa59ab726f4799e4ecdc" target="_blank">here</a>. You can then deposit that into the liquidity farming contract. You will have to approve the deposit, then send the deposit and await confirmation. Then almost instantly, you will begin to see that you're farming BUCC with a real-time updating gains indicator. You can withdraw at any time or claim back your LP position and doing so will claim any amount of BUCC you have been awarded. The headlining feature with Sargasso is the ability to claim your BUCC rewards privately as long as the claiming address has previously received any amount of BUCC. This private claim system uses the same internal BUCC-Bermuda system to enable traceless claims on private farming. Make sure that if you are tumbling tokens to the contract address, to not utilize your private claim or your tumbled tokens will get sent to the receiver. 
+                        <br /><br />
+                        Enjoy the world's first private farm, Sargasso.
                     </Text>
                     <hr className="whiteHRLINE" />
                   </Card.Body>
