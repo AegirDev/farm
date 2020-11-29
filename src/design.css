@@ -89,9 +89,15 @@
 
 .buttonFormat {
   font-family: 'Noto Sans', sans-serif !important;
+  margin-bottom: 2vw !important;
 }
 
 .buttonFormat:hover {
   color: green;
   cursor: pointer;
+}
+
+@keyframes font-shine {
+  0% {background-position: 0% 0}
+  100% {background-position: -100% 0}
 }

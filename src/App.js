@@ -376,10 +376,13 @@ initateEthereum = async () => {
         <Container className="text-center">
           <Row>
             <Col>
-            <a href="https://buccaneer.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Homepage</Button></a>
+            <a href="https://buccaneer.eth" target="_blank"><Button className="buttonFormat" theme={preset} variant='outline'>Homepage</Button></a>
             </Col>
             <Col>
-            <a href="https://buccapi.eth" target="_blank"><Button className="wp buttonFormat" theme={preset} variant='outline'>Bermuda</Button></a>
+            <a href="https://buccapi.eth" target="_blank"><Button className="buttonFormat" theme={preset} variant='outline'>Bermuda</Button></a>
+            </Col>
+            <Col>
+            <a href="https://bucctumbler.eth" target="_blank"><Button className="buttonFormat" theme={preset} variant='outline'>Havok</Button></a>
             </Col>
           </Row>
         </Container> 
@@ -478,7 +481,7 @@ initateEthereum = async () => {
           <Text
             fontSize={[ 3 ]}
             color='primary'
-            className="text ">
+            className="text">
             Input address to privately claim:
           </Text>
           </Col>
@@ -534,8 +537,8 @@ initateEthereum = async () => {
                     <hr className="whiteHRLINE" />
                         <Text
                           className="text"
-                          fontSize={[ 3, 4, 5 ]}>
-                          Current APY: 1200%
+                          fontSize={[ 3 ]}>
+                          13.8 Bucc Per Day
                         </Text>
                         <Text
                           className="text"
